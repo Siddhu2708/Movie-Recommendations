@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Streamlit & Cache
+.streamlit/
+poster_cache.json
+
+# Large model data file (>100MB exceeds GitHub standard limit)
+# Download from HuggingFace if needed:
+# https://huggingface.co/sujoy0011/Movie-Recommendation-System/tree/main
+movie_data.pkl
